@@ -15,7 +15,7 @@ namespace CountryDetailsConsumer
                 // Most methods return (long) XML documents with lots of information
                 string allCountries = client.GetCountries();
                 Console.WriteLine(allCountries);
-
+                 
                 Console.WriteLine("Currency information for Denmark");
                 string currencyInfo = client.GetCurrencyByCountry("Denmark");
                 Console.WriteLine(currencyInfo);
